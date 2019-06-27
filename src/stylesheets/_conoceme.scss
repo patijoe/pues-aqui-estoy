@@ -1,0 +1,38 @@
+.conoceme {
+  display: flex;
+  flex-direction: column;
+}
+
+.conoceme__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conoceme__name {
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+}
+
+.conoceme__job {
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin: 0 0 40px;
+}
+
+.conoceme__img {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 20px;
+}
+
+.conoceme__text {
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 30px;
+}
