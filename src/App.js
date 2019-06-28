@@ -19,8 +19,11 @@ class App extends React.Component {
   }
 
   handleChange() {
+    // const newImg = {...item, favorite: !item.favorite};
+    const newImg = this.state.imagen === (patri) ? (diachungo) : (patri);
+
     this.setState({
-      imagen: (diachungo)
+      imagen: newImg
     })
 
     console.log('^^', this.state.imagen);
