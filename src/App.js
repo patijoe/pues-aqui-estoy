@@ -1,6 +1,6 @@
 import React from 'react';
 import diachungo from './images/diachungo.jpeg';
-import patri from './images/patri.jpg';
+import patri from './images/patri_bw_small.jpg';
 import Header from './components/Header';
 import Conoceme from './components/Conoceme';
 import Aptitudes from './components/Aptitudes';
@@ -19,7 +19,6 @@ class App extends React.Component {
   }
 
   handleChange() {
-    // const newImg = {...item, favorite: !item.favorite};
     const newImg = this.state.imagen === (patri) ? (diachungo) : (patri);
 
     this.setState({
